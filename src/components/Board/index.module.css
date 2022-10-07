@@ -1,0 +1,31 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  width: 62px;
+  height: 62px;
+  border: #d3d6da 2px solid;
+  background: white;
+  font-weight: bold;
+  font-size: 2rem;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+.active_cell {
+  border-color: #878a8c;
+}

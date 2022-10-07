@@ -1,0 +1,37 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+  width: 100%;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  height: 58px;
+  width: 50px;
+  border: 0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #d3d6da;
+}
+
+.key:hover {
+  opacity: 0.9;
+}
